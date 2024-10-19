@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    font-size: 100%;
+}
+
+@media (max-width: 768px) {
+    html{
+        font-size: 79%;
+    }
+}
+
+@media (max-width: 320px) {
+    html{
+        font-size: 68%;
+    }
+}
+
+.font-kay {
+    font-family: "Kay Pho Du", serif;
+    font-style: normal;
+}
+
+.font-playfair {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.show {
+    display: initial !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.container-pop-up-sobre-nos {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.pop-up-sobre-nos {
+    background-color: #F0F0F0;
+    text-align: center;
+    max-width: 600px;
+    width: 88%;
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.pop-up-sobre-nos h2 {
+    font-size: 1.8rem;
+}
+
+.pop-up-sobre-nos h3 {
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    /* background-color: #F0F0F0; */
+    display: flex;
+    align-items: center;
+    -webkit-box-shadow: 0px 5px 18px -10px rgba(0, 0, 0, 0.56);
+    -moz-box-shadow: 0px 5px 18px -10px rgba(0, 0, 0, 0.56);
+    box-shadow: 0px 5px 18px -10px rgba(0, 0, 0, 0.56);
+}
+
+header h1 {
+    font-size: 2.1rem;
+    width: 100%;
+    padding-left: 50px;
+}
+
+.link-sobre-nos {
+    cursor: pointer;
+}
+
+.link-sobre-nos:hover {
+    color: gray;
+} 
+
+main {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 100vh;
+    padding: 150px 0;
+}
+
+.container-citacao-dia {
+    width: 70%;	
+    max-width: 700px;
+    margin: 0 auto;
+    /* padding: 30px 20px; */
+    background-color: rgb(255 255 255);
+    -webkit-box-shadow: 13px 13px 16px -12px rgba(0, 0, 0, 0.56);
+    -moz-box-shadow: 13px 13px 16px -12px rgba(0, 0, 0, 0.56);
+    box-shadow: 13px 13px 16px -12px rgba(0, 0, 0, 0.56);
+    border-radius: 20px;
+    padding: 36px;
+}
+
+.title-citacao {
+    font-size: 1.7rem;
+}
+
+.citacao {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.citacao-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.citacao-info {
+    font-size: 1.2rem;
+}
+
+.citacao-info-container a {
+    color: black;
+}
+
+.citacao-info-container a:hover {
+    color: gray;
+}
+
+footer {
+    text-align: center;
+    font-family: "open sans", sans-serif;
+    border-top: 2px solid black;
+    width: 100%;
+    padding: 22px 70px 22px 70px;
+}
+
+footer h3 {
+    font-size: 1.8rem;
+}
+
+footer h4 {
+    font-size: 1.2rem;
+}
