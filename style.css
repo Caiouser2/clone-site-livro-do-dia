@@ -78,9 +78,11 @@ html {
 }
 
 header {
+    gap: 15px;
     width: 100%;
     height: 100px;
     margin-bottom: 10px;
+    padding: 25px 50px;
     /* background-color: #F0F0F0; */
     display: flex;
     align-items: center;
@@ -92,11 +94,13 @@ header {
 header h1 {
     font-size: 2.1rem;
     width: 100%;
-    padding-left: 50px;
 }
 
 .link-sobre-nos {
+    font-size: 1.2rem;
     cursor: pointer;
+    white-space: pre;
+    font-weight: 700;
 }
 
 .link-sobre-nos:hover {
@@ -104,7 +108,8 @@ header h1 {
 } 
 
 main {
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
+    background-color: #7787f4;
     width: 100%;
     height: 100vh;
     padding: 150px 0;
@@ -114,7 +119,6 @@ main {
     width: 70%;	
     max-width: 700px;
     margin: 0 auto;
-    /* padding: 30px 20px; */
     background-color: rgb(255 255 255);
     -webkit-box-shadow: 13px 13px 16px -12px rgba(0, 0, 0, 0.56);
     -moz-box-shadow: 13px 13px 16px -12px rgba(0, 0, 0, 0.56);
